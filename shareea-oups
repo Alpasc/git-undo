@@ -1,0 +1,15 @@
+wilder@wilder-ThinkPad-T430:~/Documents/quetes/git/shareeza-oups$ git log --oneline
+86f9f8f (HEAD -> master, origin/master, origin/HEAD) add paragraphs
+18fbab2 update title
+629766a creation index.html
+4d89ea8 Initial commit
+wilder@wilder-ThinkPad-T430:~/Documents/quetes/git/shareeza-oups$ git revert 86f9f8f
+[master ebb4627] Revert "add paragraphs"
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+wilder@wilder-ThinkPad-T430:~/Documents/quetes/git/shareeza-oups$ git log --oneline
+ebb4627 (HEAD -> master) Revert "add paragraphs"
+86f9f8f (origin/master, origin/HEAD) add paragraphs
+18fbab2 update title
+629766a creation index.html
+4d89ea8 Initial commit
+wilder@wilder-ThinkPad-T430:~/Documents/quetes/git/shareeza-oups$ 
